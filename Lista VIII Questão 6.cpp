@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<locale.h>
+#include<math.h>
 
-float area(float r); //Protótipo da função
+float area(float r); //ProtÃ³tipo da funÃ§Ã£o
 
 int main(){
 	setlocale(LC_ALL, "Portuguese");
@@ -10,11 +11,11 @@ int main(){
 	printf("Informe o raio: ");
 	scanf("%f", &r);
 	
-	printf("O tamanho da area é %.1f", area(r)); //Chamada da função
+	printf("O tamanho da area Ã© %.1f", area(r)); //Chamada da funÃ§Ã£o
 	
 return(0);
 }
 
-float area(float r){ //Função para saber a area
-	return(3.14 * (r * r));
+float area(float r){ //FunÃ§Ã£o para saber a area
+	return(3.14 * pow(r,2));
 }
