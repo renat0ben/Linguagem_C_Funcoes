@@ -17,9 +17,9 @@ int main(){
 
 void idade(int i){ //Função para verificar se a pessoa é maior de idade ou não, sem retorno
 	if(i >= 18){
-		printf("Parabéns! Você já pode ser preso!");
+		printf("voce é maior de idade!");
 	}
 	else{
-		printf("Parabéns! Você ainda é feliz!");
+		printf("voce é menor de idade!");
 	}
 }
