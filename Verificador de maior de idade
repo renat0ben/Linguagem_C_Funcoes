@@ -6,8 +6,9 @@ void idade(int i); //Portótipo da função
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int n;
-	
+	printf("==================\n);
 	printf("Qual a sua idade? ");
+	printf("\n==================\n);
 	scanf("%i", &n);
 	
 	idade(n); //Chamada da função, passando n como argumento
@@ -17,9 +18,13 @@ int main(){
 
 void idade(int i){ //Função para verificar se a pessoa é maior de idade ou não, sem retorno
 	if(i >= 18){
+                printf("\n**********************\n);
 		printf("voce é maior de idade!");
+                printf("\n**********************\n);
 	}
 	else{
+                printf("\n**********************\n);
 		printf("voce é menor de idade!");
+                printf("\n**********************\n);
 	}
 }
